@@ -2,10 +2,7 @@
    margin-left: 10%;
    margin-right: 11%; 
 }
-nav {
-    margin: 0 auto;
-    width: 450px;
-}
+
 #second{
     background: #f6f2f2;
     padding-bottom: 85px;
@@ -14,8 +11,12 @@ nav {
 
 
 #first{
-    
     background: #f6f2f2; 
+}
+
+#first nav {
+    display: flex;
+    justify-content: center;    
 }
 
 #first .container {
@@ -23,13 +24,7 @@ nav {
     opacity: 0.8;
 }
 
-#first ul {
-    margin: 0;
-    padding: 0;
-}
-
-#first li {
-    display: inline-block;
+#first a {
     padding: 28px 17px;
 }
 
@@ -45,7 +40,7 @@ nav {
     font-family: "Open Sans" , sans-serif;
     
 }
-#first li:hover { 
+#first a:hover { 
     background-color: #ff3f40;
 }
 
