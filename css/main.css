@@ -1,6 +1,6 @@
 .container {
-   margin-left: 10%;
-   margin-right: 11%; 
+   margin: 0 auto;
+   max-width: 1200px;
 }
 
 #second{
@@ -104,8 +104,7 @@
 .learn-more{
     
    background-color: #ffffff;
-    height: 690px;
-    width: 100%
+    width: 100%;
 }
 .block1{
     border-bottom: 5px solid black; 
@@ -171,4 +170,27 @@
 .four-imgs img{
     height: 41px;
     
+}
+
+
+@media (max-width: 1250px) {
+    .learn-more {
+        float: none;
+        width: 80%;
+        padding: 0 10% 100px 10%;
+    }
+
+    .learn-more-imgs {
+        margin: 0;
+        display: flex;
+        width: auto;
+        justify-content: center;
+    }
+
+    .learn-more-imgs > div {
+        margin: 0;
+        width: 20%;
+        text-align: center;
+        margin: 0 10px;
+    }
 }
