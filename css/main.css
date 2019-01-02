@@ -179,7 +179,7 @@
 #products{
     padding-top: 100px;
 }
-.head-products > h1, p{
+.head-products > h1, .head-products > p{
     text-align: center;
 }
 
@@ -235,12 +235,99 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.photo{
+.photos-container .photo{
     height: 250px;
-    
     background-color: #f5f0dd;
     float: left; 
     margin: 8px;
+}
+.about-us-head h2{
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+}
+
+.about-us-head > p {
+    width: 50%;
+    opacity: 0.7;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.about-us-head .red-line{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border-bottom: #ff0000 2px solid;
+    width: 15%;
+}
+
+.about-us-card{
+    margin: 50px 0px;
+}
+
+.about-us-photo{
+    float: left;
+    height: 400px;
+    background-color: #f5f0dd;
+    width: 300px;
+    margin-right: 40px;
+}
+.about-us-info{
+    float: left;
+}
+.about-us-info > h2 {
+    margin-top: 0;
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Open Sans - Semibold";
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.28px;
+}
+
+.about-us-info > p {
+    opacity: 0.7;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.about-us-info > a {
+    text-decoration: none;
+    display: inline-block;
+    
+    margin: 70px;
+    margin-top: 30px;
+    margin-left:0;
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+}
+
+.about-us-info .block-photo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.about-us-info .photo{
+    background-color: #f5f0dd;
+    float: left; 
+    margin: 0 8px;
+    height: 148px;
 }
 
 @media (max-width: 1250px) {
