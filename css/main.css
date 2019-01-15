@@ -566,7 +566,10 @@ footer img:last-child{
     header{
         display: none;
     }
-    
+    .contact1 h1{
+        text-align: center;
+        font-size: 25px;
+    }
 
      .contact1 {
         width: 100%;
