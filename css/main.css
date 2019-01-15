@@ -562,3 +562,137 @@ footer img:last-child{
         margin: 0 10px;
     }
 }
+@media (max-width: 500px){
+    header{
+        display: none;
+    }
+    
+
+     .contact1 {
+        width: 100%;
+        margin-top: 50px;
+        float: left;
+        padding-bottom: 20px;
+    }
+
+    .contact1 a {
+        display: block;
+        margin:  50px auto;
+        width: 150px;
+    }
+    .contact1Vid{
+        margin-top: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact1Vid img{
+        margin: 0;
+    }
+    .learn-more a {
+        display: block;
+        margin-top: 20px;
+        padding: 15px 27px;
+        margin: auto;
+        width: 100px;
+    }
+    .learn-more-imgs{
+        flex-direction: column;
+    }
+    .learn-more-imgs > div {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .button-products{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .photos-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .about-us-head h2 {
+        text-align: center;
+    }
+    .about-us-head > p{
+        width: 100%;
+        text-align: center;
+    }
+    .about-us-head .red-line{
+        margin: auto;
+    }
+    .about-us-photo{
+        float: none;
+        margin: auto;
+    }
+    .about-us-info > h2{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .about-us-info > p{
+        text-align: center;
+    }
+    .about-us-info > a {
+       
+        display: inline-flex;
+        width: 100px;
+        justify-content: center;
+    }
+    #subscribe-block > h2{
+        line-height: 50px;
+    }
+    #subscribe-block > input{
+        width: 100%;
+    }
+    .contact-text > h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .contact-text > p{
+        text-align: justify;
+    }
+    .contact-text .red-line{
+        width: 100%;
+    }
+    #contanct-form-name{
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+    #contact-form-email {
+        width: 90%;
+        margin: 5px auto;
+        display: block;
+    }
+    #contact-form-text {     
+        margin-top: 5px;
+        width: 100%;    
+        display: block;
+        margin: auto;   
+    }
+    .contact-form{
+        width: 100%;
+    }
+    #contact-form-submit{
+        margin-top: 5px;
+    }
+    .contact-text .red-line {
+        width: 90%;
+        margin: auto;
+    }
+    .contact-info{
+        float: left;
+        width: 100%;
+    }
+    .contact-text {
+        float: left;
+        width: 100%;
+    }
+    #contact{
+        margin: 0;
+    }
+    footer{
+        width: 100%;
+    } 
+}
